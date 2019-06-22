@@ -3,6 +3,7 @@
 /public/storage
 /storage/*.key
 /vendor
+/.ideag
 .env
 .phpunit.result.cache
 Homestead.json
