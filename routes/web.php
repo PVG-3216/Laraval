@@ -12,8 +12,9 @@
 */
 
 Route::get('/', function () {
-
     return view('welcome');
 });
 
 Route::get('/about', 'AboutController@getAboutPage');
+
+Route::get('/contacts', 'ContactsController@getContactsPage');
